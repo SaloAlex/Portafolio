@@ -113,7 +113,7 @@ export const personalInfo = [
   {
     id: 9,
     title: "Skype : ",
-    description: "Alesxander Salomon",
+    description: "Alexander Salomon",
   },
 
   {
