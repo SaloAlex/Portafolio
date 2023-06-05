@@ -390,7 +390,30 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        link: (
+          <div>
+          <a
+            href="https://cosmic-cobbler-758b7d.netlify.app/"
+            className="item__details"
+            target="_blank"
+            rel="noopener"
+          >
+            <FaChrome /> : Visit the Page
+          </a>
+
+            <br />
+
+          <a
+          href="https://github.com/SaloAlex/Portfolio"
+          className="item__details"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub /> : Visit the code
+        </a>
+
+          </div>
+        ),
       },
     ],
   },
