@@ -15,7 +15,7 @@ import {
 } from "react-icons/fa";
 
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
-import {SiJavascript, SiPreact} from "react-icons/si"
+import {SiJavascript, SiPreact, SiChatbot} from "react-icons/si"
 
 
 import Work1 from "./assets/project-1.jpeg";
@@ -58,6 +58,12 @@ export const links = [
     name: "Portfolio",
     icon: <FaFolderOpen className="nav__icon" />,
     path: "/portfolio",
+  },
+  {
+    id: 4,
+    name: "chatbot",
+    icon: <SiChatbot className="nav__icon" />,
+    path: "/chatbot",
   },
 ];
 

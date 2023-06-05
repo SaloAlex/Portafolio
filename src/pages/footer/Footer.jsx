@@ -52,7 +52,6 @@ const Footer = () => {
               <FaDownload />{" "}
             </span>
           </a>
-
           <div className="contact__social">
             <a
               href="https://www.linkedin.com/in/alexander-salomon-98a814183/"
@@ -72,48 +71,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        {/* <form className="contact__form">
-          <div className="form__input-group">
-            <div className="form__input-div">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="form__controll"
-              />
-            </div>
-
-            <div className="form__input-div">
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="form__controll"
-              />
-            </div>
-
-            <div className="form__input-div">
-              <input
-                type="text"
-                placeholder="Your Subjet"
-                className="form__controll"
-              />
-            </div>
-          </div>
-
-          <div className="form__input-div">
-            <textarea
-              placeholder="Your Message"
-              className="form__controll textarea"
-            ></textarea>
-          </div>
-
-          <button className="button">
-            Send Mesagge
-            <span className="button__icon contact__button-icon">
-              <FiSend />
-            </span>
-          </button>
-        </form> */}
       </div>
     </section>
   );
