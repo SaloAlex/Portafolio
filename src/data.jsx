@@ -160,7 +160,7 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2018 - PRESENT",
+    year: "2019 - 2022",
     title: "Esports organization <span> Rll E-sports </span>",
     desc: "Organization and direction of E-sports events online and lan modality, General production of streams,podcast and different audiovisual content for internet plataform and television, ",
   },
