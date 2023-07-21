@@ -59,12 +59,12 @@ export const links = [
     icon: <FaFolderOpen className="nav__icon" />,
     path: "/portfolio",
   },
-  {
-    id: 4,
-    name: "chatbot",
-    icon: <SiChatbot className="nav__icon" />,
-    path: "/chatbot",
-  },
+  // {
+  //   id: 4,
+  //   name: "chatbot",
+  //   icon: <SiChatbot className="nav__icon" />,
+  //   path: "/chatbot",
+  // },
 ];
 
 export const personalInfo = [
