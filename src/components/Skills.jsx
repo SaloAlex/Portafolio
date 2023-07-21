@@ -1,6 +1,6 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaGithub, FaBootstrap, FaReact, FaNodeJs, FaFigma } from "react-icons/fa";
-import {SiAdobephotoshop, SiAdobeaftereffects, SiSass, SiCanva} from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaGithub, FaBootstrap, FaReact, FaNodeJs } from "react-icons/fa";
+import {SiAdobephotoshop, SiAdobeaftereffects, SiSass, SiCanva, SiWordpress} from "react-icons/si";
 import {DiJavascript1} from "react-icons/di"
 
 const Skills = () => {
@@ -52,8 +52,8 @@ const Skills = () => {
   <span>Canva</span>
 </div>
 <div className="leng-icon">
-  <FaFigma />
-  <span>Figma</span>
+  <SiWordpress />
+  <span>Wordpress</span>
 </div>
 
     </>

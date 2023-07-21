@@ -15,15 +15,15 @@ import {
 } from "react-icons/fa";
 
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
-import {SiJavascript, SiPreact, SiChatbot} from "react-icons/si"
+import {SiJavascript, SiPreact, SiChatbot, SiWordpress} from "react-icons/si"
 
 
 import Work1 from "./assets/project-1.jpeg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpeg";
 import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work5 from "./assets/project-5.jpeg";
+// import Work6 from "./assets/project-6.jpg";
 
 
 
@@ -160,18 +160,18 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2019 - PRESENT",
-    title: "Esports organization <span> Rll E-sports </span>",
-    desc: "Organization and direction of E-sports events online and lan modality, General production of streams,podcast and different audiovisual content for internet plataform and television, ",
+    year: "2020 - PRESENT",
+    title: "Content Creator-CM and Web Developer<span> Freelancer </span>",
+    desc: "Management and creation of content for social networks-platforms such as twitch and youtube and Creation and maintenance of web pages",
   },
 
   {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2018 - 2018",
-    title: "CM <span> Idenyo </span>",
-    desc: "Management and creation of content for social media",
+    year: "2018 - PRESENT",
+    title: "Esports organization <span> Rll E-sports </span>",
+    desc: "Organization and direction of E-sports events online and lan modality, General production of streams,podcast and different audiovisual content for internet plataform and television",
   },
 
   {
@@ -417,6 +417,57 @@ export const portfolio = [
       },
     ],
   },
+    {
+    id: 5,
+    img: Work5,
+    title: "Rllesports",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Freelancer",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "Rllesports",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: <SiWordpress /> ,
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        link: (
+          <div>
+          <a
+            href="https://rllesports.com/"
+            className="item__details"
+            target="_blank"
+            rel="noopener"
+          >
+            <FaChrome /> : Visit the Page
+          </a>
+
+            <br />
+
+          <a
+          href=""
+          className="item__details"
+          target=""
+          rel="noopener noreferrer"
+        >
+          <FaGithub /> : Visit the code
+        </a>
+
+          </div>
+        ),
+      },
+    ],
+  },
+  
 
   // {
   //   id: 5,
